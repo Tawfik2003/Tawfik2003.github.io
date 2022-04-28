@@ -1,0 +1,135 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #37383A;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 10px 200px;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #fff
+}
+
+.img1 {
+    padding: 0px 400px 0px 0px;
+}
+
+.nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fff
+}
+
+.nav a:hover {
+    color: #af27ce;
+    font-size: 1.1em;
+    transition: 0.8s ease;
+}
+
+.title {
+    display: flex;
+    color: red;
+    justify-content: center;
+    font-size: 2.7em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.home {
+    background-color: #584688d6;
+    padding: 100px 0px;
+}
+
+.content video {
+    height: 450px;
+    width: 700px;
+    display: inline;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.content audio {
+    display: flex;
+    margin-left: 200px;
+    margin-top: -30px;
+    background-color: greenyellow;
+}
+
+.content video:hover {
+    transition: 0.7s ease-in-out;
+    transform: scale(1.1);
+}
+
+.content {
+    position: relative;
+    margin-top: 50px;
+}
+
+.video_info {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+.video_info p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.table1 {
+    width: 100%;
+    border: 2px solid;
+
+}
+
+.table1 caption {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.table1 td {
+    padding: 15px;
+    background-color: #254150;
+    border-spacing: 4px;
+    color: #fef9ce;
+}
+
+.table1 td a {
+    color: #fff;
+}
+
+.clubs h2 {
+    margin-top: 40px;
+}
+
+.table1 td a {
+    text-decoration: none;
+    color: #f8f0a5;
+}
+
+.clubs a:hover {
+    color: orange;
+    transition: 0.7s ease;
+}

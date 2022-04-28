@@ -1,0 +1,164 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url(media/9.jpg);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 10px 200px;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: red;
+}
+
+.img1 {
+    margin-left: -500px;
+    width: 100px;
+    height: 100px;
+}
+
+.nav a {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #fff
+}
+
+.nav a:hover {
+    color: #af27ce;
+    font-size: 1.1em;
+    transition: 0.9s ease;
+}
+
+.story {
+    background-image: url(media/ooo.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    padding: 100px;
+}
+
+.info1 p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 60px;
+}
+
+.title {
+    display: flex;
+    color: red;
+    justify-content: center;
+    font-size: 2.7em;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+.info1 {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.team .content {
+    margin: 40px;
+}
+
+#team .title {
+    padding-top: 120px;
+}
+
+.team .content .card1 {
+    box-shadow: 0 5px 40px rgba(1 1 1 / 30%);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.card1:hover {
+    transition: 0.8s ease;
+    transform: scale(1.1);
+}
+
+.card1-info {
+    padding: 1em;
+    text-align: center;
+}
+
+.p3 {
+    color: #009655;
+}
+
+#kit {
+    background-image: url(media/ttt.webp);
+    background-size: cover;
+}
+
+#kit .title {
+    margin: 100px 0px;
+    padding-top: 130px;
+}
+
+#kit .card1 {
+    margin-bottom: 200px;
+}
+
+.news .title {
+    margin-bottom: 100px;
+}
+
+.news .content3 {
+    margin-left: 20px;
+}
+
+.part1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.two {
+    padding: 60px 0px 0px 40px;
+}
+
+.two p {
+    margin-top: 30px;
+}
+
+.two a {
+    text-decoration: none;
+    color: #585858;
+    font-size: 26px;
+}
+
+.two p {
+    color: #808080;
+    font-size: 20px;
+}
+
+#news .title {
+    margin: 100px 0px;
+    padding-top: 130px;
+}
+
+.one img:hover {
+    transition: 0.9s ease;
+    transform: scale(1.1);
+}
